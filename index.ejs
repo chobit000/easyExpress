@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+	<% datas.forEach(function(data){ %>
+		<li>
+		   <a href="/article?id=<%= data.id %>"><%= data.title %></a>
+		</li>
+	<% }) %>
+   
+</ul>
+
+</body>
+</html>
